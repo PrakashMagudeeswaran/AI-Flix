@@ -1,0 +1,122 @@
+
+  body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .background{
+    position:fixed;
+    margin-top: -0.01vh;
+    top:0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:-1;
+
+  }
+  .Logo1{
+    width:25vh;
+    height:15vh;
+    filter:contrast(100);
+
+    
+  }
+  .Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20vh;
+    padding-top:5vh;
+
+  }
+
+  .SignIn{
+    border: none;
+    display: flex;
+    margin: auto;
+    height:5vh;
+    width:10vh;
+    border-radius: 5px;
+    background-color:red;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  
+    }
+    .Buttons1{
+      display: flex;
+      gap:3vh;
+    }
+    .Form1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: wheat;
+      text-shadow:2px 2px black;
+      font-size: larger;
+      margin-top: -10vh;
+      gap:2vh;
+    }
+    .Button2{
+    border: none;
+    display: block;
+    margin: auto;
+    height:8vh;
+    width:30vh;
+    border-radius: 5px;
+    background-color:red;
+    color:white;
+    font-weight: bold;
+    }
+
+    .input1{
+      height: 8vh;
+      width: 55vh;
+      border: 3px solid grey;
+      color: white;
+      padding-left:2vh;
+      background-color:rgba(0,0,0,0.6);
+      font-size: larger;
+      border-radius: 1vh;
+    }
+    .input1::placeholder{
+      color: white;
+      opacity: 50%;
+    }
+    .SignIn:hover{
+      cursor: pointer;
+      filter: grayscale(50%);
+    }
+    .Language:hover{
+      cursor: pointer;
+      filter: grayscale(50%);
+    }
+    .Button2:hover{
+      cursor: pointer;
+      filter: grayscale(50%);
+    }
+    .span1:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .password1{
+      height: 8vh;
+      width: 55vh;
+      border: 3px solid grey;
+      color: white;
+      padding-left:2vh;
+      background-color:rgba(0,0,0,0.6);
+      font-size: larger;
+      border-radius: 1vh;
+    }
+    .password1::placeholder{
+      color: white;
+      opacity: 50%;
+    }

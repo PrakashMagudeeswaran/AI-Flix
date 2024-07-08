@@ -1,0 +1,79 @@
+.Logo1{
+  width:25vh;
+  height:15vh;
+  filter:contrast(100);
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  font-weight: bold;
+  padding-top:4vh ;
+
+}
+.button3{
+  border: none;
+    height:5vh;
+    width:20vh;
+    border-radius: 5px;
+    background-color:red;
+    color:white;
+    font-weight: bold; 
+}
+.button4{
+  border: none;
+    height:5vh;
+    width:20vh;
+    border-radius: 5px;
+    background-color:rgb(248, 1, 1);
+    color:white;
+    font-weight: bold; 
+}
+.button3:hover{
+  cursor: pointer;
+  filter: grayscale(50%);
+}
+.button4:hover{
+  cursor: pointer;
+  background-color:#1E88E5;
+}
+.select{
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  width:15vh;
+
+}
+.option{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.mobibut{
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+  padding-right: 10px;
+}
+
+@media(min-width:350px) and (max-width:750px){
+.head{
+margin-top: -3vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2vh;
+}
+.mobibut{
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+
+}

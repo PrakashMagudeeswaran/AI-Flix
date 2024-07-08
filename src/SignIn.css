@@ -1,0 +1,108 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+.background1{
+  position:fixed;
+    margin-top: -0.01vh;
+    top:0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:-1;
+}
+
+.Logo2{
+  width:25vh;
+  height:15vh;
+padding-left: 20vh;
+  padding-top:5vh;
+  filter:contrast(100);
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  gap: 2vh;
+  background-color:rgb(23, 26, 26);
+  width:80vh;
+  color:white;
+}
+
+.Label{
+  color: white;
+}
+.mail{
+  height: 8vh;
+  width: 55vh;
+  border: 3px solid grey;
+  color: white;
+  padding-left:2vh;
+  background-color:rgba(0,0,0,0.6);
+  font-size: larger;
+  border-radius: 1vh;
+}
+.password{
+  height: 8vh;
+  width: 55vh;
+  border: 3px solid grey;
+  color: white;
+  padding-left:2vh;
+  background-color:rgba(0,0,0,0.6);
+  font-size: larger;
+  border-radius: 1vh;
+}
+.button2{
+  border: none;
+  display: block;
+  margin: auto;
+  height:8vh;
+  width:25vh;
+  border-radius: 5px;
+  background-color:red;
+  color:white;
+  font-weight: bold;
+  font-size: larger;
+}
+.text1{
+  color: white;
+  font-weight: bold;
+}
+.button2:hover{
+  cursor: pointer;
+  filter: grayscale(50%);
+}
+.span1{
+  text-decoration: none;
+  color: white;
+}
+.details{
+  font-weight: bold;
+}
+@media(min-width:350px) and (max-width:750px){
+.box1{
+  height: auto;
+  width: auto;
+  align-items: center;
+  margin-top:20px;
+  text-align: center;
+}
+.mail{
+  width: auto;
+}
+.password{
+  width: auto;
+}
+
+
+
+
+
+
+}
