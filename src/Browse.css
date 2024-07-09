@@ -42,7 +42,7 @@ border: none;
 .moviecards{
 display: flex;
 flex-direction: row;
-overflow-x: hidden;
+overflow-x: scroll;
 gap:2vh;
 }
 .card:hover{
