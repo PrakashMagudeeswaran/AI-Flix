@@ -43,6 +43,9 @@ const Browse = () => {
   )
     return null;
   console.log('Sasuke Uchiha');
+
+  const count = Math.floor(Math.random() * 10);
+  
   return (
     <>
       <HeaderCommon />
@@ -50,7 +53,7 @@ const Browse = () => {
         <GBTpage />
       ) : (
         <>
-          <VideoPlayBack movies={movies} movieID={movies[0].id} />
+          <VideoPlayBack movies={movies} movieID={movies[count].id} count={count} />
           <MovieCards
             movies={movies}
             movies1={movies1}
