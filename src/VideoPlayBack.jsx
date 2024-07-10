@@ -4,7 +4,7 @@ import useTrailer from '../customHooks/useTrailer'
 import lang from '../utilities/language'
 
 
-const VideoPlayBack = ({movies,movieID}) => {
+const VideoPlayBack = ({movies,movieID,count}) => {
   const ln=useSelector(store=>store.language?.lang)
   useTrailer(movieID)
   const key=useSelector(store=>store.movies?.trailerView)
@@ -14,8 +14,8 @@ const VideoPlayBack = ({movies,movieID}) => {
    <>
      <div className="movienow">
     <div className="discription">
-      <h2>{movies[0].title}</h2>
-      <p>{movies[0].overview}</p></div>
+      <h2>{movies[count].title}</h2>
+      <p>{movies[count].overview}</p></div>
       <div className="buttons">
       <button className="buttonN">{lang[ln].play}</button>
       <button  className="buttonN">{lang[ln].moreinfo}</button></div>
