@@ -22,7 +22,7 @@ setError(null);  // Reset error state before search
 try {
 if (!searchapi.current) return;
 const searchQuery = `Act as movie recommendation system and suggest movies for the query: ${searchapi.current.value}. Only give me names of 20-50 movies, comma separated like the given result ahead. Example result: Avatar, Ironman, Bahubali, Singham, Sholay`;
-const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 const result = await model.generateContent(searchQuery);
 const response = result.response; 
 const text = await response.text();
