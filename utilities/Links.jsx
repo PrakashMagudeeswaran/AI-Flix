@@ -20,4 +20,4 @@ export const SUPPORTED_LANGUAGES = [
   },
 ];
 
-export const Google_AI = 'AIzaSyDwEtvfpbUcALWVY5GBgohaxzYAylrgoZg';
+export const Google_AI = 'AIzaSyBwa_bjpyJixBtx51JEHK5_CvIPH36yOAo';
